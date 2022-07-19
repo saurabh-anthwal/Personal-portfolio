@@ -1,0 +1,77 @@
+.dark{
+      margin-top: -40px;
+}
+
+.skills{
+    border-top-left-radius: 5rem;border-top-right-radius: 5rem;
+}
+.slider img{height: 300px;}
+.slider {
+    /* width: 90%;margin: 0 auto; */
+}
+.slider div{
+    width: 90%;margin: 0 auto;
+}
+.skills-text{padding: 0 10rem;letter-spacing: 2px;}
+
+.carousel .slide .legend {
+    transition: all .5s ease-in-out;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.25;
+    transition: opacity .35s ease-in-out;
+    cursor: pointer;
+}
+
+.carousel.carousel-slider {    padding: 44px 0;}
+
+@keyframes growProgressBar {
+    0%, 33% { --pgPercentage: 0; }
+    100% { --pgPercentage: var(--value); }
+  }
+  
+  @property --pgPercentage {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+  }
+  
+  div[role="progressbar"] {
+    --size: 12rem;
+    --fg: rgb(165, 73, 165);
+    --bg: rgb(222, 221, 255);
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+  }
+  
+  div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+  }
+
+  .modals{
+    border: 1px solid rgb(24, 23, 23);padding: 10px;background-color:black;
+  }
+  .skill-box{padding: 10px 0;background-color: rgba(14, 13, 13, 0.699);}
