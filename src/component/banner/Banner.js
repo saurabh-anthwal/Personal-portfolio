@@ -6,8 +6,8 @@ const Banner = () => {
   return (
     <section className="banner  text-light" id="home">
       <Container>
-        <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
+        <Row className="align-items-center ">
+          <Col xs={12} md={6} xl={7} className="mt-5">
             <span className="tagline">Welcome to my Portfolio</span>
             <h1 className="mt-4 bold">
               {`Hi I'm Saurabh Anthwal`}

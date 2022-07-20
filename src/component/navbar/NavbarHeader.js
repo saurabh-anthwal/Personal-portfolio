@@ -5,8 +5,8 @@ import "./NavbarHeader.css";
 
 const NavbarHeader = () => {
   return (
-    <div>
-        <Navbar collapseOnSelect expand="lg"  variant="dark">
+    <div className="headers">
+        <Navbar  collapseOnSelect expand="lg"  variant="dark">
       <Container>
         <Navbar.Brand href="#home">LOGO</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -4,6 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import "./Skills.css";
 import Projects from "../projects/Projects";
+import About from "../about/About";
 
 export default function Skills() {
   return (
@@ -68,11 +69,9 @@ export default function Skills() {
             </Carousel>
           </div>
 
+            <About/>
         <div>
-            <div>
-                <h2>Projects</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, eveniet animi? Nesciunt quaerat assumenda deserunt soluta unde nihil, voluptatum consequatur aut? Repellendus quam aliquid at, assumenda optio maxime velit. Perspiciatis?</p>
-            </div>
+           
             <Projects/>
         </div>
         </Container>

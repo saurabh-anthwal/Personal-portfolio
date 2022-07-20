@@ -1,0 +1,127 @@
+.about-main {
+    padding: 10px;
+    margin: 10px 0;
+}
+.about-main p{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: rgb(223, 223, 223);font-weight: 700;padding: 10px 0;
+}
+
+.grid {
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px; */
+    display: flex;
+    gap: 10px;
+}
+
+
+.image-section {
+    width:35%;padding: 10px;
+}
+.middle-section p {
+    text-align: left;
+    /* width: 100%; */
+}
+
+.middle-section p svg {
+    height: 15px;
+    width: 15px;
+    color: gold
+}
+
+.middle-section p span {
+    color: rgb(233, 233, 233);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right-section p {
+    text-align: left;
+    width: 100%;
+}
+
+.right-section p svg {
+    height: 15px;
+    width: 15px;
+    color: gold
+}
+
+.projects {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.projects h1 svg {
+    height: 45px;
+    color: skyblue;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    stroke-width: 1;
+}
+
+.projects span {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(202, 201, 201);
+    letter-spacing: 1px;
+}
+
+.projects h1 {
+    font-size: 30px;
+}
+
+.happy-client {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.happy-client h1 svg {
+    height: 45px;
+    color: green;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    stroke-width: 1;
+}
+
+.happy-client span {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(202, 201, 201);
+    letter-spacing: 1px;
+}
+
+.happy-client h1 {
+    font-size: 30px;
+}
+
+.experience {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.experience h1 svg {
+    height: 45px;
+    color: blueviolet;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    stroke-width: 1;
+}
+
+.experience span {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(202, 201, 201);
+    letter-spacing: 1px;
+}
+
+.experience h1 {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid{
+        flex-direction: column;padding: 0 !important
+    }
+    .about-main{padding: 0;}
+    .image-section{width: 100%;padding: 0;}
+  }

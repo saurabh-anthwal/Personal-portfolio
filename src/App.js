@@ -4,6 +4,7 @@ import './App.css';
 import Banner from "./component/banner/Banner";
 import Skills from "./component/skill/Skills";
 import Projects from "./component/projects/Projects";
+import Contact from "./component/contact/Contact";
 
 function App() {
   return (

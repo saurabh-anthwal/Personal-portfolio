@@ -1,0 +1,56 @@
+.contact{
+
+}
+
+.contact-icon{
+padding: 20px;background-color: rgba(20, 20, 20, 0.822);border-radius: 4px;
+box-shadow: rgba(61, 61, 63, 0.315) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+/* .contact-icon p{border: 1px solid gold;border-radius: 50px;} */
+.contact-icon p svg{
+    height: 40px;color: rgb(214, 183, 9);background-color: rgba(8, 55, 70, 0.822);border-radius: 50px;padding: 5px;cursor: pointer;    stroke-width: 1;
+}
+.social-icon h3{
+    color: rgb(221, 221, 221);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .s-icon{
+    padding: 10px;border: 1px solid white;background-color: black;height: 40px;width: 40px;margin: 10px;border-radius: 50px;cursor: pointer;
+ }
+ .s-icon:hover{background-color: rgba(0, 255, 255, 0.589);}
+
+ .contact-form{display: flex;}
+
+ .contact-user{
+    width: 100%;padding: 10px;
+ }
+
+ .comment-form{
+    width: 100%;
+    padding: 10px;
+ }
+
+ .comment-form textarea{height:13rem;}
+
+ .send-bkutton button{
+    background-color: rgb(238, 34, 34);
+    border: none;
+    color: white;
+    font-weight: bold;
+ }
+
+ .my-details{padding: 20px;}
+ .my-details p{
+    font-size: 15px;color: gray;
+    cursor: pointer;
+ }
+
+ @media only screen and (max-width: 600px) {
+  .contact-form{
+   flex-direction: column;
+  }
+  .comment-form textarea{
+   height:5rem;
+  }
+ }

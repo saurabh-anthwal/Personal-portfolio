@@ -1,0 +1,16 @@
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    border: none!important
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    border: 1px solid white;
+    margin: 5px;
+    color: gold !important
+}
+
+.project-main{
+    margin-top: 3rem;
+}
